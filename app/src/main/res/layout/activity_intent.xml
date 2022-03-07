@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intentActivity" >
+
+
+    <include
+        android:layout_width="match_parent"
+        android:id="@+id/cardview1"
+        android:layout_height="wrap_content"
+        layout="@layout/cardview_layout" />
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_height="80dp"
+        android:layout_below="@+id/cardview1"
+        android:layout_width= "120dp"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"/>
+
+
+    <TextView
+        android:id="@+id/textpkdevice"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textmacaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@+id/textpkdevice"
+        android:layout_marginTop="21dp"
+
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textplatform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textmacaddress"
+        android:layout_marginTop="21dp"
+android:textColor="@color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/Server_Device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textplatform"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/Server_Event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Server_Device"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/Server_Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Server_Event"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/InternalIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Server_Account"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/LastAliveReported"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/InternalIP"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+
+</RelativeLayout>
